@@ -1,0 +1,11 @@
+{
+  "mcp": {
+    "servers": {
+      "custom-mcp-server": {
+        "command": "node",
+        "args": ["/Users/anoopsindhu/playGround/customMcp/src/index.js"],
+        "env": {}
+      }
+    }
+  }
+}
