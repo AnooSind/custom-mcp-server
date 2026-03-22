@@ -71,7 +71,7 @@ async function testListTools(serverProcess) {
 async function runTests() {
   console.log('Starting MCP server tests...');
 
-  const serverProcess = spawn('node', ['server.js'], {
+  const serverProcess = spawn('node', ['src/index.js'], {
     cwd: __dirname,
     stdio: ['pipe', 'pipe', 'inherit']
   });

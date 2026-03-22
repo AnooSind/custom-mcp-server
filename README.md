@@ -276,7 +276,7 @@ npm test
 
 ## Adding New Tools
 
-To add new tools, modify the `setupToolHandlers()` method in `server.js`:
+To add new tools, modify the `setupToolHandlers()` method in `src/index.js`:
 
 1. Add the tool to the `ListToolsRequestSchema` handler
 2. Add a case in the `CallToolRequestSchema` handler
