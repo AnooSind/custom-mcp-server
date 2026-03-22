@@ -3,7 +3,7 @@
     "servers": {
       "custom-mcp-server": {
         "command": "node",
-        "args": ["/Users/anoopsindhu/playGround/customMcp/src/index.js"],
+        "args": ["${workspaceFolder}/src/index.js"],
         "env": {}
       }
     }
